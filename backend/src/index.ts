@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 app.use(helmet());
 app.use(
   cors({
-    origin: ["https://trogon-airways.onrender.com", "http://localhost:3000"],
+    origin: ["https://airways-trogon.onrender.com", "http://localhost:3000"],
     credentials: true,
   })
 );
